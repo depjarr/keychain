@@ -11,7 +11,7 @@ const products = [
     rating: 0,
     reviews: 0,
     discount: "10%",
-    shopeeUrl: "", // Replace with actual Shopee URL
+    shopeeUrl: "https://shopee.co.id/Keychain-aesthetic-lucu-handmade-i.142766081.40522654150", // Replace with actual Shopee URL
   },
   {
     title: "Fish Keychain",
