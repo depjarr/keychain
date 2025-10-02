@@ -107,7 +107,7 @@ export const KoreanHeroSection = ({ featuredProduct }: KoreanHeroSectionProps) =
               </div>
               <div className="text-center">
                 <Heart className="w-8 h-8 text-white mx-auto mb-2" />
-                <p className="text-white/90 text-sm">Fan Favorites</p>
+                <p className="text-white/90 text-sm">Favorites</p>
               </div>
             </div>
           </div>
