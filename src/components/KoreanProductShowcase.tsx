@@ -32,7 +32,7 @@ const koreanProducts = [
     rating: 0,
     reviews: 0,
     discount: "16%",
-    shopeeUrl: "https://shopee.co.id/-READY-STOCK-Sharing-NewJeans-Season-Greating-2025-i.142766081.29573310753", // Replace with your actual Shopee URL
+    shopeeUrl: "https://shopee.co.id/Keychain-Fish-Ikan-Lucu-Handmade-i.142766081.44222649044", // Replace with your actual Shopee URL
   },
 ];
 
@@ -42,10 +42,10 @@ export const KoreanProductShowcase = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-foreground mb-4">
-            Korean Goods Collection
+            Cute Things
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Temukan koleksi album K-pop original, berbagai photocard menarik, dan merchandise resmi dari grup favoritmu. Tersedia di Shopee dengan pengiriman cepat dan terpercaya.
+            Kamu lagi cari barang-barang lucu dan unik? Yuk, cek koleksi produk kami yang keren-keren banget! Mulai dari gantungan kunci, jepitan rambut, sampai aksesoris lainnya, semua ada di sini dengan harga terjangkau dan kualitas terbaik. Jangan sampai ketinggalan, buruan pilih produk favoritmu dan tambahkan ke keranjang belanja sekarang juga!
           </p>
         </div>
         

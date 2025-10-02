@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Star, ShoppingBag, Truck, Shield, Heart } from "lucide-react";
-import kpopAlbumsHero from "@/assets/selar.png";
+import kpopAlbumsHero from "@/assets/blindbag.png";
 
 interface KoreanHeroSectionProps {
   featuredProduct: {
