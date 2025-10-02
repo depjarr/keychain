@@ -2,14 +2,14 @@ import { KoreanHeroSection } from "@/components/HeroSection";
 import { KoreanProductShowcase } from "@/components/KoreanProductShowcase";
 
 const featuredKoreanProduct = {
-  title: "Fresh Fish Keychain",
-  price: "Rp.21.000",
-  originalPrice: "Rp.25.000",
-  rating: 5.0,
+  title: "Mystery Fish Blind Bag Phonechain",
+  price: "Rp.10.000",
+  originalPrice: "Rp.12.000",
+  rating: 0,
   reviews: 0,
-  discount: "16%",
-  shopeeUrl: "https://shopee.co.id/Keychain-Fish-Ikan-Lucu-Handmade-i.142766081.44222649044", // Replace with your actual Shopee URL
-  description: "Kalian mau punya gantungan kunci lucu yang bisa nemenin kalian kemana-mana? Gantungan kunci Fresh Fish ini cocok banget buat kalian! Dengan desain yang imut dan warna-warna cerah, gantungan kunci ini bakal bikin hari-hari kalian lebih berwarna. Cocok untuk dipasang di tas, kunci rumah, atau bahkan sebagai aksesori tambahan di tempat favorit kalian. Yuk, tambahkan Fresh Fish Keychain ke koleksi kalian sekarang juga dan bawa keceriaan kemanapun kalian pergi!",
+  discount: "17%",
+  shopeeUrl: "https://shopee.co.id/Mystery-Fish-Blind-bag-Phonechain-i.142766081.42372663897", // Replace with your actual Shopee URL
+  description: "Kamu suka kejutan? Coba deh Mystery Fish Blind Bag Phonechain ini! Gantungan kunci lucu berbentuk ikan yang datang dalam kemasan misterius. Setiap blind bag berisi satu dari berbagai macam desain ikan yang menggemaskan, jadi kamu nggak pernah tahu ikan apa yang akan kamu dapatkan! Cocok banget buat koleksi atau dijadikan hadiah spesial untuk teman-temanmu. Yuk, buruan beli dan rasakan keseruan membuka blind bag-nya!",
 };
 
 const Index = () => {
