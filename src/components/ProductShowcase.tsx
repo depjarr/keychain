@@ -5,6 +5,16 @@ import tongkolkeychain from "@/assets/tongkol.png";
 import nilakeychain from "@/assets/nila.png";
 import selarkeychain from "@/assets/selar.png";
 import kembungkeychain from "@/assets/kembung.png";
+import setAkey from "@/assets/setA.png";
+import setBkey from "@/assets/setB.png";
+import setCkey from "@/assets/setC.png";
+import setDkey from "@/assets/setD.png";
+import setEkey from "@/assets/setE.png";
+import setFkey from "@/assets/setF.png";
+import setGkey from "@/assets/setG.png";
+import setHkey from "@/assets/setH.png";
+import setIkey from "@/assets/setI.png";
+import { set } from "date-fns";
 
 const products = [
   {
@@ -76,6 +86,116 @@ const products = [
 
     shopeeUrl: "https://shopee.co.id/Keychain-Fish-Ikan-Lucu-Handmade-i.142766081.44222649044", // Replace with actual Shopee URL
   },
+
+  {
+    title: "Set A Keychain",
+    price: "Rp. 10.000",
+    originalPrice: "Rp. 12.000",
+    image: setAkey,
+    rating: 0,
+    reviews: 0,
+    discount: "17%",
+
+    shopeeUrl: "https://shopee.co.id/Sushi-Set-Keychain-Lucu-Handmade-i.142766081.41373050333", // Replace with actual Shopee URL
+  },
+
+  {
+    title: "Set B Keychain",
+    price: "Rp. 10.000",
+    originalPrice: "Rp. 12.000",
+    image: setBkey,
+    rating: 0,
+    reviews: 0,
+    discount: "17%",
+
+    shopeeUrl: "https://shopee.co.id/Sushi-Set-Keychain-Lucu-Handmade-i.142766081.41373050333", // Replace with actual Shopee URL
+  },
+
+  {
+    title: "Set C Keychain",
+    price: "Rp. 10.000",
+    originalPrice: "Rp. 12.000",
+    image: setCkey,
+    rating: 0,
+    reviews: 0,
+    discount: "17%",
+
+    shopeeUrl: "https://shopee.co.id/Sushi-Set-Keychain-Lucu-Handmade-i.142766081.41373050333", // Replace with actual Shopee URL
+  },
+
+  {
+    title: "Set D Keychain",
+    price: "Rp. 10.000",
+    originalPrice: "Rp. 12.000",
+    image: setDkey,
+    rating: 0,
+    reviews: 0,
+    discount: "17%",
+
+    shopeeUrl: "https://shopee.co.id/Sushi-Set-Keychain-Lucu-Handmade-i.142766081.41373050333", // Replace with actual Shopee URL
+  },
+
+  {
+    title: "Set E Keychain",
+    price: "Rp. 10.000",
+    originalPrice: "Rp. 12.000",
+    image:  setEkey,
+    rating: 0,
+    reviews: 0,
+    discount: "17%",
+
+    shopeeUrl: "https://shopee.co.id/Sushi-Set-Keychain-Lucu-Handmade-i.142766081.41373050333", // Replace with actual Shopee URL
+  },
+
+  {
+    title: "Set F Keychain",
+    price: "Rp. 10.000",
+    originalPrice: "Rp. 12.000",
+    image: setFkey,
+    rating: 0,
+    reviews: 0,
+    discount: "17%",
+
+    shopeeUrl: "https://shopee.co.id/Sushi-Set-Keychain-Lucu-Handmade-i.142766081.41373050333", // Replace with actual Shopee URL
+  },
+
+  {
+    title: "Set G Keychain",
+    price: "Rp. 10.000",
+    originalPrice: "Rp. 12.000",
+    image: setGkey,
+    rating: 0,
+    reviews: 0,
+    discount: "17%",
+
+    shopeeUrl: "https://shopee.co.id/Sushi-Set-Keychain-Lucu-Handmade-i.142766081.41373050333", // Replace with actual Shopee URL
+  },
+
+  {
+    title: "Set H Keychain",
+    price: "Rp. 10.000",
+    originalPrice: "Rp. 12.000",
+    image: setHkey,
+    rating: 0,
+    reviews: 0,
+    discount: "17%",
+
+    shopeeUrl: "https://shopee.co.id/Sushi-Set-Keychain-Lucu-Handmade-i.142766081.41373050333", // Replace with actual Shopee URL
+  },
+
+  {
+    title: "Set I Keychain",
+    price: "Rp. 10.000",
+    originalPrice: "Rp. 12.000",
+    image: setIkey,
+    rating: 0,
+    reviews: 0,
+    discount: "17%",
+
+    shopeeUrl: "https://shopee.co.id/Sushi-Set-Keychain-Lucu-Handmade-i.142766081.41373050333", // Replace with actual Shopee URL
+  },
+
+
 ];
 
 export const ProductShowcase = () => {

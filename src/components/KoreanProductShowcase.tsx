@@ -2,6 +2,7 @@ import { ProductCard } from "./ProductCard";
 import jepitrambut from "@/assets/jepit.png";
 import keychainaesthetic from "@/assets/keychain.png";
 import fishkeychain from "@/assets/fish.png";// Import the image for Sharing Seaason Greatings Newjeans 2025 Minji
+import set1Key from "@/assets/set1.png";// Import the image for Sharing Seaason Greatings Newjeans 2025 Minji
 
 const koreanProducts = [
   {
@@ -33,6 +34,17 @@ const koreanProducts = [
     reviews: 0,
     discount: "16%",
     shopeeUrl: "https://shopee.co.id/Keychain-Fish-Ikan-Lucu-Handmade-i.142766081.44222649044", // Replace with your actual Shopee URL
+  },
+
+  {
+    title: "Keychain Set Sushi Lucu Handmade",
+    price: "Rp. 10.000",
+    originalPrice: "Rp. 12.000",
+    image: set1Key,
+    rating: 0,
+    reviews: 0,
+    discount: "17%",
+    shopeeUrl: "https://shopee.co.id/Sushi-Set-Keychain-Lucu-Handmade-i.142766081.41373050333", // Replace with your actual Shopee URL
   },
 ];
 
